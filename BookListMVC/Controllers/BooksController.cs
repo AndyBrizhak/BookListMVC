@@ -40,6 +40,10 @@ namespace BookListMVC.Controllers
             return View(Book);
         }
 
+        /// <summary>
+        /// Post Action method Update and Add
+        /// </summary>
+        /// <returns></returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Upsert()
